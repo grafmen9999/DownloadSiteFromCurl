@@ -1,0 +1,21 @@
+{
+    "name": "vendor/test_curl",
+    "description": "test load site from curl",
+    "type": "library",
+    "require": {
+        "curl/curl": "^2.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "grafmen9999",
+            "email": "grafmen9999@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Lib\\": "lib/"
+        }
+    }
+}
